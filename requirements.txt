@@ -5,4 +5,4 @@ pandas>=0.19
 streamlit
 opencv-python==4.3.0.36
 pillow
-pickle>=11.1
+pickle
