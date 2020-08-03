@@ -3,6 +3,6 @@ scikit-learn
 matplotlib>=1.4.3
 pandas>=0.19
 streamlit
-pickle
-cv2
-PIL
+opencv-python==4.3.0.36
+PIL>=1.1.6
+pickle>=11.1
