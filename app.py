@@ -7,6 +7,7 @@ import cv2
 import streamlit as st
 from sklearn.svm import SVC
 from PIL import Image
+import io
 
 
 def main():
@@ -68,7 +69,8 @@ def main():
 
     st.markdown("## Select an Image")
     uploaded_file = st.file_uploader(
-        label="", type=['png', 'jpg', 'mp4', '#gp', 'webm', 'wmv'])
+        label="", type=['png', 'jpg'])
+    text_io = io.TextIOWrapper(file_buffer)
     if uploaded_file is not None:
         file_type = -1
         try:
