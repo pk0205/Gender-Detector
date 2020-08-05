@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import sklearn
 import pickle
 import cv2
+from cv2 import *
 import streamlit as st
 from sklearn.svm import SVC
 
