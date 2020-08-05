@@ -3,6 +3,6 @@ scikit-learn
 matplotlib
 pandas>=0.19
 streamlit
-opencv-python
-pillow
 opencv-contrib-python
+opencv-contrib-python-headless
+pillow
