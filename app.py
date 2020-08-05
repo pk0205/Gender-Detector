@@ -70,7 +70,7 @@ def main():
     st.markdown("## Select an Image")
     uploaded_file = st.file_uploader(
         label="", type=['png', 'jpg'])
-    text_io = io.TextIOWrapper(file_buffer)
+    text_io = io.TextIOWrapper(uploaded_file)
     if uploaded_file is not None:
         file_type = -1
         try:
